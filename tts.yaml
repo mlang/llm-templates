@@ -1,0 +1,11 @@
+schema_object:
+  type: object
+  properties:
+    input:
+      type: string
+      description: Text to speak
+    instructions:
+      type: string
+      description: How to speak the given text
+  required:
+  - input
